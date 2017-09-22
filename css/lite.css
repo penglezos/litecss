@@ -8,6 +8,7 @@
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Universal
 - Grid
+- Typography
 */
 
 
@@ -191,3 +192,13 @@ body {
     max-width: 60rem;
   }
 }
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+h1 { font-size: 2.5rem;}
+h2 { font-size: 2rem;}
+h3 { font-size: 1.375rem;}
+h4 { font-size: 1.125rem;}
+h5 { font-size: 1rem;}
+h6 { font-size: 0.875rem;}
