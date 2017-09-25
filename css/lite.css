@@ -10,6 +10,7 @@
 - Grid
 - Typography
 - Navigation Bar
+- Media Queries
 */
 
 /* Universal
@@ -26,7 +27,7 @@ body {
 }
 
 /* Base Style */
-
+f45b8f6eb3aeece8cc11549059313c560c5efd63
 * {
   font-family: 'Lato', Helvetica, sans-serif;
   color: #333447;
@@ -136,3 +137,20 @@ nav {
     nav ul { width: 100%; } }
   @media (max-width: 550px) {
     nav { text-align: center; } }
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
