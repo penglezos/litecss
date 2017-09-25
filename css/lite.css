@@ -138,6 +138,12 @@ nav {
   @media (max-width: 550px) {
     nav { text-align: center; } }
 
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header { margin-top:5em; margin-bottom:5em; }
+.headerbg { background-color: #DCDCDC; border-radius: 5px; padding: 10px 0; }
+.text-center { text-align: center; }
+
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Larger than mobile */
