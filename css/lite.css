@@ -8,8 +8,10 @@
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Universal
 - Grid
-- Typography
 - Navigation Bar
+- Header
+- Typography
+- Links
 - Media Queries
 */
 
@@ -26,8 +28,6 @@ body {
   font-size: 100%;
 }
 
-/* Base Style */
-f45b8f6eb3aeece8cc11549059313c560c5efd63
 * {
   font-family: 'Lato', Helvetica, sans-serif;
   color: #333447;
@@ -36,7 +36,6 @@ f45b8f6eb3aeece8cc11549059313c560c5efd63
 
 /* Grid System
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 .container {
   width: 90%;
   margin-left: auto;
@@ -115,16 +114,6 @@ f45b8f6eb3aeece8cc11549059313c560c5efd63
   .container {width: 75%; max-width: 60rem;}
 }
 
-/* Typography
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-h1 { font-size: 2.5rem;}
-h2 { font-size: 2rem;}
-h3 { font-size: 1.375rem;}
-h4 { font-size: 1.125rem;}
-h5 { font-size: 1rem;}
-h6 { font-size: 0.875rem;}
-
 /* Navigation Bar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav {
@@ -143,6 +132,25 @@ nav {
 .header { margin-top:5em; margin-bottom:5em; }
 .headerbg { background-color: #DCDCDC; border-radius: 5px; padding: 10px 0; }
 .text-center { text-align: center; }
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300; }
+
+h1 { font-size: 2.5rem;}
+h2 { font-size: 2rem;}
+h3 { font-size: 1.375rem;}
+h4 { font-size: 1.125rem;}
+h5 { font-size: 1rem;}
+h6 { font-size: 0.875rem;}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a { color: #1EAEDB; }
+a:hover { color: #0FA0CE; }
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
