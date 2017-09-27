@@ -13,6 +13,7 @@
 - Typography
 - Links
 - Tables
+- Lists
 - Media Queries
 */
 
@@ -162,6 +163,17 @@ td:first-child { padding-left: 0; }
 th:last-child,
 td:last-child { padding-right: 0; }
 
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul { list-style: circle inside; }
+ol { list-style: decimal inside; }
+ol, ul { padding-left: 0; margin-top: 0; }
+ul ul,
+ul ol,
+ol ol,
+ol ul { margin: 1.5rem 0 1.5rem 3rem; font-size: 90%; }
+li { margin-bottom: 1rem; }
+
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Larger than mobile */
@@ -177,4 +189,4 @@ td:last-child { padding-right: 0; }
 @media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {
+@media (min-width: 1200px) {}
