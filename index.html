@@ -14,6 +14,15 @@
     <link rel="stylesheet" href="css/lite.css">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="">
+    <style>
+    grid-display { margin: 20px 0; }
+    .grid-display [class^="col"] { background: #FBCED1;
+    border: 1px solid #FE7880;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center; }
+    .grid-display [class^="col"] p { color: #FE7880; font-size: 0.8rem; }
+</style>
 </head>
 <body>
   <nav class="container">
@@ -30,6 +39,128 @@
       <h2>This is a responsive header of Lite</h2>
     </div>
   </div>
+  <div class="body-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-4 center">
+          <h3>Responsive</h3>
+          <p>
+            Your website will display beautifully, no matter the device or screen type.
+          </p>
+        </div>
+        <div class="col-4 center">
+          <h3>Lightweight</h3>
+          <p>
+            The CSS is super light, so you won’t have to worry about adding to page load times.
+          </p>
+        </div>
+        <div class="col-4 center">
+          <h3>Simple</h3>
+          <p>
+            Lite CSS is made for all skill levels, so you can jump right into your project.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 hidden-sm"></div>
+        <div class="col-4">
+          <div class="line"></div>
+        </div>
+        <div class="col-4 hidden-sm"></div>
+      </div>
+      <div class="row">
+        <div class="col-2 hidden-sm"></div>
+        <div class="col-8">
+          <h3 class="center">Lite CSS</h3>
+          <p>
+            Some text here.Some text here.Some text here.Some text here.Some text here.Some text here.Some text here.Some text here.Some text here.Some text here.
+          <p>
+            Each column is contained within rows, which are contained within a container. The container is set to a maximum width of 960px, but you can edit without having to break anything.
+          </p>
+        </div>
+        <div class="col-2 hidden-sm"></div>
+      </div>
+      <div class="grid-display">
+        <div class="row">
+          <div class="col-1">
+            <p>
+              one
+            </p>
+          </div>
+          <div class="col-11">
+            <p>
+              eleven
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <p>
+              two
+            </p>
+          </div>
+          <div class="col-10">
+            <p>
+              ten
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <p>
+              three
+            </p>
+          </div>
+          <div class="col-9">
+            <p>
+              nine
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <p>
+              four
+            </p>
+          </div>
+          <div class="col-8">
+            <p>
+              eight
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-5">
+            <p>
+              five
+            </p>
+          </div>
+          <div class="col-7">
+            <p>
+              seven
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <p>
+              six
+            </p>
+          </div>
+          <div class="col-6">
+            <p>
+              six
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p>
+              twelve
+            </p>
+          </div>
+        </div>
+      </div>
   <footer class="container">
     <p>This is a responsive footer of Lite - Copyright 2017 some text</p>
   </footer>

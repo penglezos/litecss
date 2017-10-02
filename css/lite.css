@@ -14,8 +14,9 @@
 - Links
 - Tables
 - Lists
-- Media Queries
 - Footer
+- Positioning
+- Media Queries
 */
 
 /* Universal
@@ -203,6 +204,14 @@ footer * { display: inline-block; }
 @media (max-width: 550px) {
   footer { text-align: center; } }
 
+
+/* Positioning
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.left { text-align: left; }
+.right { text-align: right; }
+.center { text-align: center; margin: 0 auto; }
+.justify { text-align: justify; }
+  
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Larger than mobile */
