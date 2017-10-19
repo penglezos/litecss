@@ -38,10 +38,6 @@ body {
   line-height: 1.5;
 }
 
-.round {
-  border-radius: 50%;
-}
-
 /* Grid System
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -277,6 +273,7 @@ footer * { display: inline-block; }
 .right { text-align: right; }
 .center { text-align: center; margin: 0 auto; }
 .justify { text-align: justify; }
+.round { border-radius: 50%; }
   
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
