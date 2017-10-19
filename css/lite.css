@@ -38,6 +38,10 @@ body {
   line-height: 1.5;
 }
 
+.round {
+  border-radius: 50%;
+}
+
 /* Grid System
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
