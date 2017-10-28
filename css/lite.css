@@ -304,7 +304,7 @@ label > .label-body {
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: gray;
   border: none;
   color: white;
   padding: 8px 20px;
@@ -313,8 +313,10 @@ label > .label-body {
   cursor: pointer;
 }
 
+.green {background-color:#4CAF50}
 .blue {background-color: #008CBA;}
 .red {background-color: #f44336;}
+.yellow {background-color: #FFD700;}
 
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
