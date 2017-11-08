@@ -18,6 +18,7 @@
 - Buttons
 - Footer
 - Positioning
+- Alerts
 - Media Queries
 */
 
@@ -334,7 +335,17 @@ footer * { display: inline-block; }
 .center { text-align: center; margin: 0 auto; }
 .justify { text-align: justify; }
 .round { border-radius: 50%; }
-  
+
+/* Alerts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.alert { position: relative; padding: 15px; margin: 10px 0; border: 1px solid #c1c1c1; border-radius: 4px; }
+.alert.danger { background-color: #F44336; border-color: #F44336; color: #fff; }
+.alert.success { background-color: #8BC34A; border-color: #8BC34A; color: #fff; }
+.alert.warning { background-color: #FFA726; border-color: #FFA726; color: #fff; }
+.alert.full-width { width: 100%; } 
+.alert.half-width {width: 50%; }
+.alert.auto-width { width: auto; }
+
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Larger than mobile */
