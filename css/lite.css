@@ -36,8 +36,7 @@ body {
 }
 
 * {
-  font-family: 'Lato', Helvetica, sans-serif;
-  color: #333447;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
 }
 
@@ -213,10 +212,6 @@ table th {
     text-align: right;
   }
   table td:before {
-    /*
-    * aria-label has no advantage, it won't be read inside a table
-    content: attr(aria-label);
-    */
     content: attr(data-label);
     float: left;
     font-weight: bold;
@@ -249,13 +244,12 @@ input[type="password"],
 textarea,
 select {
   height: 38px;
-  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  padding: 6px 10px;
   background-color: #fff;
   border: 1px solid #D1D1D1;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }
-/* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -326,7 +320,6 @@ footer * { display: inline-block; }
   footer  { width: 100%; } }
 @media (max-width: 550px) {
   footer { text-align: center; } }
-
 
 /* Positioning
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
