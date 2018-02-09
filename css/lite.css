@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 /* Lite CSS v0.3
 * Copyright 2018,
 * Panagiotis Englezos (Github.com/penglezos)
@@ -18,7 +19,7 @@
 - Buttons
 - Footer
 - Positioning
-- Alerts
+- Cards
 - Media Queries
 */
 
@@ -36,10 +37,15 @@ body {
 }
 
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #212121;
   line-height: 1.5;
-}
-
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  word-wrap: break-word; }
+  
 /* Grid System
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -131,8 +137,8 @@ nav ul { float: right; }
 
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.header { margin-top:5em; margin-bottom:5em; }
-.headerbg { background-color: #DCDCDC; border-radius: 5px; padding: 10px 0; }
+.header { margin-top:2em; margin-bottom:5em; }
+.headerbg { background-color: #558C89; padding: 50px 0; }
 .text-center { text-align: center; }
 
 /* Typography
@@ -291,15 +297,11 @@ footer * { display: inline-block; }
 .justify { text-align: justify; }
 .round { border-radius: 50%; }
 
-/* Alerts
+/* Cards
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.alert { position: relative; padding: 15px; margin: 10px 0; border: 1px solid #c1c1c1; border-radius: 4px; }
-.alert.danger { background-color: #F44336; border-color: #F44336; color: #fff; }
-.alert.success { background-color: #8BC34A; border-color: #8BC34A; color: #fff; }
-.alert.warning { background-color: #FFA726; border-color: #FFA726; color: #fff; }
-.alert.full-width { width: 100%; } 
-.alert.half-width {width: 50%; }
-.alert.auto-width { width: auto; }
+.card { margin: 15px; border-radius: 1px; border: 0.5px solid #e0e0e0; }
+.card .content { padding: 10px; }
+.card.card-shadow { box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); border: none; }
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
