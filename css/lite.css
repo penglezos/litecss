@@ -1,5 +1,5 @@
 /* Lite CSS v0.3
-* Copyright 2017,
+* Copyright 2018,
 * Panagiotis Englezos (Github.com/penglezos)
 * Free to use under the MIT license.
 */
@@ -234,62 +234,24 @@ li { margin-bottom: 1rem; }
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea,
-select {
-  height: 38px;
-  padding: 6px 10px;
-  background-color: #fff;
-  border: 1px solid #D1D1D1;
-  border-radius: 4px;
-  box-shadow: none;
-  box-sizing: border-box; }
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea {
-  -webkit-appearance: none;
-     -moz-appearance: none;}
-textarea {
-  min-height: 65px;
-  padding-top: 6px;
-  padding-bottom: 6px; }
-input[type="email"]:focus,
-input[type="number"]:focus,
-input[type="search"]:focus,
-input[type="text"]:focus,
-input[type="tel"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-textarea:focus,
-select:focus {
-  border: 1px solid #33C3F0;
-  outline: 0; }
-label,
-legend {
+input, textarea, select {
   display: block;
-  margin-bottom: .5rem;
-  font-weight: 600; }
-fieldset {
-  padding: 0;
-  border-width: 0; }
-input[type="checkbox"],
-input[type="radio"] {
-  display: inline; }
-label > .label-body {
-  display: inline-block;
-  margin-left: .5rem;
-  font-weight: normal; }
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #e0e0e0;
+  outline: none;
+  border-radius: 2px;
+  background-color: #ffffff; }
+  input:hover, textarea:hover, select:hover {
+    border-color: #6e6e6e; }
+  input:focus, textarea:focus, select:focus {
+    border-color: #212121; }
+
+textarea {
+  resize: vertical;
+  min-height: 60px; }
+
   @media (max-width: 550px) {
     input,select,label,checkbox,textarea { width: 100%; } }
   @media (max-width: 550px) {
