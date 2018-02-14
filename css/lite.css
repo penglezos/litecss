@@ -228,6 +228,7 @@ table th {
     border-bottom: 0;
   }
 }
+
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul { list-style: circle inside; }
@@ -276,6 +277,7 @@ textarea {
   cursor: pointer;
 }
 
+button:hover{ opacity: 0.75; }
 .green {background-color:#4CAF50}
 .blue {background-color: #008CBA;}
 .red {background-color: #f44336;}
