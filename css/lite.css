@@ -138,9 +138,7 @@ nav ul { float: right; }
 
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.header { margin-top:2em; margin-bottom:5em; }
-.headerbg { background-color: #558C89; padding: 50px 0; }
-.text-center { text-align: center; }
+.header { margin-top:2em; margin-bottom:5em; text-align: center; background-color: #558C89; padding: 50px 0;}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
