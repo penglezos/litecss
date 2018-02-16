@@ -54,12 +54,12 @@ body {
   margin-right: auto;
 }
 
-.row {
+row {
   position: relative;
   width: 100%;
 }
 
-.row [class^="col"] {
+row [class^="col"] {
   float: left;
   margin: 0.5rem 2%;
   min-height: 0.125rem;
@@ -80,7 +80,7 @@ body {
   width: 96%;
 }
 
-.row::after {
+row::after {
 	content: "";
 	display: table;
 	clear: both;
@@ -125,7 +125,7 @@ nav ul { float: right; }
 
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.header { margin-top:2em; margin-bottom:5em; text-align: center; background-color: #558C89; padding: 50px 0;}
+header { margin-top:2em; margin-bottom:5em; text-align: center; background-color: #558C89; padding: 50px 0;}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
