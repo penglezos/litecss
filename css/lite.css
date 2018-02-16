@@ -12,7 +12,6 @@
 - Navigation Bar
 - Header
 - Typography
-- Links
 - Tables
 - Lists
 - Forms
@@ -154,10 +153,8 @@ h4 { font-size: 1.125rem;}
 h5 { font-size: 1rem;}
 h6 { font-size: 0.875rem;}
 
-/* Links
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 a { color: #1EAEDB; }
-a:hover { color: #0FA0CE; }
+a:hover { opacity: 0.75; }
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
