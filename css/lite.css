@@ -80,19 +80,6 @@ body {
   width: 96%;
 }
 
-.col1sm { width: 4.33%;}
-.col2sm { width: 12.66%;}
-.col3sm { width: 21%;}
-.col4sm { width: 29.33%;}
-.col5sm { width: 37.66%;}
-.col6sm { width: 46%;}
-.col7sm { width: 54.33%;}
-.col8sm { width: 62.66%;}
-.col9sm { width: 71%;}
-.col10sm { width: 79.33%;}
-.col11sm { width: 87.66%;}
-.col12sm { width: 96%;}
-
 .row::after {
 	content: "";
 	display: table;
@@ -122,6 +109,7 @@ body {
   .col12 { width: 96%;}
   .hidden-sm { display: block;}
 }
+
 @media only screen and (min-width: 60em) { /* 960px */
   .container {width: 75%; max-width: 60rem;}
 }
