@@ -117,16 +117,17 @@ row::after {
 
 /* Navigation Bar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-nav { margin-top: 40px !important; }
-nav a.brand { font-weight: 600; }
-nav * { display: inline-block; }
-nav ul { float: right; }
+nav { margin: 20px; display: block;}
+nav * { display: inline-block; margin-bottom: 5px;} 
+nav > span { font-weight: bold;} 
+nav ul { margin: 0; padding: 0; float: right; list-style: none; }
+nav ul li { margin: 0 10px; }
 @media (max-width: 550px) { nav ul { width: 100%; } }
 @media (max-width: 550px) { nav { text-align: center; } }
 
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-header { margin-top:2em; margin-bottom:5em; text-align: center; background-color: #558C89; padding: 50px 0;}
+header { margin-top:1em; margin-bottom:5em; text-align: center; background-color: #558C89; padding: 50px 0;}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
