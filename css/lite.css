@@ -34,6 +34,7 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
+  background-color: #74AFAD;
 }
 
 * {
@@ -287,9 +288,8 @@ footer * { display: inline-block; }
 
 /* Cards
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.card { margin: 15px; border-radius: 1px; border: 0.5px solid #e0e0e0; }
-.card .content { padding: 10px; }
-.card.card-shadow { box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); border: none; }
+#card {margin-top:1em; margin-bottom:5em; background-color: white; padding: 50px 0;}
+#card #content { padding: 10px; }
 
 /* Tooltips
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
