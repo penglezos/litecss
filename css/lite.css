@@ -48,11 +48,12 @@ body {
   
 /* Grid System
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.container {
-  width: 90%;
+container, *[container] {
+  max-width: 960px;
+  width: 95%;
+  margin: 0 auto;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
 
 row {
   position: relative;
