@@ -56,15 +56,16 @@ container, *[container] {
   margin-left: auto;
   margin-right: auto; }
 
-row {
-  position: relative;
-  width: 100%;
-}
-
 row [class^="col"] {
   float: left;
   margin: 0.5rem 2%;
   min-height: 0.125rem;
+}
+
+row::after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .col1,
@@ -80,12 +81,6 @@ row [class^="col"] {
 .col11,
 .col12 {
   width: 96%;
-}
-
-row::after {
-	content: "";
-	display: table;
-	clear: both;
 }
 
 .hidden-sm { display: none;}
