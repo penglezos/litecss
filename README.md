@@ -2,34 +2,49 @@
   <img src="https://camo.githubusercontent.com/3e840fb4f8d8f3d88e4f5bd03bdf3192e21240ea/687474703a2f2f692e696d6775722e636f6d2f346633496978352e706e67" width="25%">
 </p>
 
-# Lite CSS :dash:
+# `lite`
 
-[![web](https://img.shields.io/badge/preview-web-red.svg)](https://penglezos.com/litecss)
+[![web](https://img.shields.io/badge/preview-web-brightgreen.svg)](https://penglezos.com/litecss)
 
-Lite CSS is a simple, responsive and any device friendly customizable framework.
+`litecss` is a simple, responsive and any device friendly customizable framework.
 
-# About
+## About
 
-Lite CSS:
+This project has the goal to provide a fully responsive CSS framework that is small to provide good performance and saving time by providing a good base for any website. To keep it as minimalistic as possible this framework ignores the use of JavaScript to reduce loading and rendering times through possible delays caused by scripts. It is free to use and can be accessed or changed over this GitHub repository.
 
-* is responsive: supporting your website on any device!
+## Files
 
-* lightweight: faster loading time, less code lines and also simple: its made for all skill levels you don't need to be a pro, also you have the basic features to play with!
-
-* comes with many extra features supporting your website/blog development without the usage of Javascript,only HTML and CSS!
-
-* is made for a better web! Everyone can contribute freely on the deticated github page!
-
-# Whats included
-
-Lite Css/
+```
+litecss/
+├── css
+│   ├── lite.css
+│   └── lite.min.css
 ├── index.html
-├── css/
-│   ├── lite.css
+├── LICENSE
+└── README.md
+```
 
-# How to use Lite CSS
+## Usage
 
-Just download or clone the repository and start changing things. You can follow the already made template and include all your code. Alternatively start with a plain html file and include the lite.css file.
+You can directly implement `litecss` into your website by the rawgit cdn or download the code and use the css from there.
+
+#### Github
+
+```shell
+# Get the code
+$ git clone https://github.com/penglezos/litecss
+$ cd litecss
+# Show the minified version
+$ cat css/lite.min.css
+# Show the full version
+$ cat css/lite.css
+```
+
+#### CDN
+
+```html
+<link rel="stylesheet" href="https://cdn.rawgit.com/penglezos/litecss/f850e1ea/css/lite.min.css">
+```
 
 ## License
 
