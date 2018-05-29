@@ -125,7 +125,7 @@ nav ul li { margin: 0 10px; }
 
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-header { margin-top:1em; margin-bottom:5em; text-align: center; padding: 50px 0;}
+header { background-color: lightgray; margin-top:1em; margin-bottom:5em; text-align: center; padding: 50px 0;}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -286,7 +286,7 @@ footer * { display: inline-block; }
 
 /* Cards
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-#card {margin-top:1em; margin-bottom:5em; background-color: white; padding: 50px 0;}
+#card {margin-top:1em; margin-bottom:5em; background-color: lightgray; padding: 50px 0;}
 #card #content { padding: 10px; }
 
 /* Tooltips
