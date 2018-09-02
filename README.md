@@ -46,10 +46,6 @@ $ cat css/lite.css
 <link rel="stylesheet" href="https://cdn.rawgit.com/penglezos/litecss/f850e1ea/css/lite.min.css">
 ```
 
-## Credits
-@penglezos
-@oltdaniel
-
 ## License
 
 You can download and modify the code but remember to give credits.
