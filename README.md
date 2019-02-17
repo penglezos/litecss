@@ -4,7 +4,7 @@
 
 # `lite`
 
-[![web](https://img.shields.io/badge/preview-web-brightgreen.svg)](https://penglezos.com/litecss)
+[![web](https://img.shields.io/badge/preview-web-brightgreen.svg)](https://penglezos.github.io/litecss)
 
 `litecss` is a simple, responsive and any device friendly customizable framework.
 
